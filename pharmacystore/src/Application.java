@@ -6,7 +6,11 @@ import repository.DataStorageManager;
 import repository.DataStoreAccess;
 import services.BasicService;
 import services.Service;
-
+/*
+* 3 models: Customer, Employee, Medicine. Admin is an extension of employee
+* Objects are passed to the different functions to modify the data
+* Data is stored in arraylists
+* */
 public class Application {
     public static void main(String[] args) {
         /*Initialisation*/
